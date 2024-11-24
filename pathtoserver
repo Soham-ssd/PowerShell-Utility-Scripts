@@ -1,0 +1,1 @@
+Copy-Item -Path "C:\Scripts\DiskUsageAnalyzer.ps1" -Destination "C:\Scripts" -ToSession (New-PSSession -ComputerName $Server)
